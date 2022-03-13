@@ -1,0 +1,95 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+h1,
+h2 {
+  text-align: left;
+}
+
+h1 {
+  color: rgb(122, 119, 184);
+}
+h2 {
+  color: rgb(189, 157, 234);
+}
+
+h3,
+h4 {
+  text-align: center;
+  font-size: 34px;
+  line-height: 48px;
+  margin: 60px 0 0;
+  font-weight: 900;
+  color: rgb(122, 119, 184);
+}
+.container {
+  max-width: 800px;
+  min-width: 300px;
+  border: 2px solid rgb(234, 232, 231);
+  border-radius: 10px;
+  background-color: rgb(234, 232, 231);
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.062);
+}
+.currenttemp {
+  text-align: center;
+}
+.card-body {
+  text-align: center;
+}
+.card-body-today {
+  text-align: center;
+}
+.weather-container {
+  margin: 25px;
+}
+
+.day-1 {
+  background-color: rgb(242, 199, 110);
+  border: 2px rgb(234, 232, 231);
+  border-radius: 5px;
+}
+.day-2 {
+  background-color: rgb(234, 113, 134);
+  border: rgb(234, 232, 231);
+  border-radius: 5px;
+}
+.day-3 {
+  background-color: rgb(242, 199, 110);
+  border: rgb(234, 232, 231);
+  border-radius: 5px;
+}
+.day-4 {
+  background-color: rgb(234, 113, 134);
+  border: rgb(234, 232, 231);
+  border-radius: 5px;
+}
+
+.day-5 {
+  background-color: rgb(242, 199, 110);
+  border: rgb(234, 232, 231);
+  border-radius: 5px;
+}
+.cloud-icon {
+  font-size: 100px;
+  padding: 16px;
+  text-align: center;
+  color: rgb(122, 119, 184);
+}
+.weather-icons {
+  font-size: 50px;
+  padding: 16px;
+  color: #fff;
+}
+#search {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.currentdateTime {
+  text-align: center;
+}
+#currentTemp {
+  text-align: center;
+}
